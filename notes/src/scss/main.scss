@@ -1,0 +1,58 @@
+@import "_normalize";
+@import "_variables";
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+ background: black; 
+ background-image: url('../assets/zhang-kaiyv-1565441-unsplash.jpg');
+ background-repeat: no-repeat;
+ background-position: top center;
+ min-height: 100vh;
+ background-size: auto;
+ font-size: 3vh;
+  }
+
+main {
+  position: relative;
+}
+
+ form {
+   display: block;
+   position: absolute;
+   left: 42%;
+   top: 28vh;
+ }
+
+ div {
+  width: 100%;
+  position: absolute;
+  left: 42%;
+  top: 15vh;
+  color: skyblue;
+  background: rgba(100, 100, 105, 0.6);
+  font-size: 6vh;
+  letter-spacing: 2vh;
+  font-weight: bold;
+ }
+
+ button {
+   font-size: 3vh;
+   margin-left: 13.5%;
+   margin-right: -13%;
+   display: inline;
+   letter-spacing: 24px;
+   border: white;
+  }
+
+  button:hover {
+    background: black;
+    color:skyblue;
+    border: black;}
